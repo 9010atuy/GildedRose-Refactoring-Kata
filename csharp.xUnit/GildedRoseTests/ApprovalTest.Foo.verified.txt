@@ -1,0 +1,6 @@
+﻿[
+  {
+    Name: fixme,
+    SellIn: -1
+  }
+]

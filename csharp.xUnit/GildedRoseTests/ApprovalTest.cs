@@ -1,12 +1,9 @@
 ﻿using GildedRoseKata;
-
 using System;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
-
 using VerifyXunit;
-
 using Xunit;
 
 namespace GildedRoseTests;
@@ -16,7 +13,7 @@ public class ApprovalTest
     [Fact]
     public Task Foo()
     {
-        Item[] items = { new Item { Name = "foo", SellIn = 0, Quality = 0 } };
+        Item[] items = { new Item { Name = "fixme", SellIn = 0, Quality = 0 } };
         GildedRose app = new GildedRose(items);
         app.UpdateQuality();
         
